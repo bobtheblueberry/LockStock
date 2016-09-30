@@ -1,0 +1,52 @@
+# true = use mysql, false = use sqlite
+mysql: false
+mysql-hostname: localhost
+mysql-port: 3306
+mysql-database: minecraft
+mysql-user: root
+mysql-password: root
+mysql-table: lockstock
+
+#when true, server operators will have all LockStock permissions
+op-is-admin: true
+#Garbage collection intervals in minutes
+garbage-collection: 10
+# When set to true, players will be warned when they
+#   have reached their limit
+autoprotect-warn: true
+#Worlds to disable chest protection in
+worlds-disabled:
+     - creative_world
+
+group-prefix: group.
+#Protected blocks
+blocks:
+    - chest
+    - trapped_chest
+    - hopper		
+    - dispenser
+    - dropper
+    - furnace	
+    - anvil
+    - beacon		
+    - jukebox		
+    - enchantment_table
+#Auto protect blocks
+autoprotect:
+    - chest
+    - trapped_chest
+    - hopper
+    - furnace
+    - dropper
+    - dispenser
+groups:
+    # 5 chests, 2 beacons, unlimited everything else
+    ExampleGroup:
+        default: unlimited
+        chest: 5
+        beacon: 2
+
+    # 10 total protections
+    ExampleGroup2:
+        default: 10
+ 

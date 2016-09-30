@@ -1,0 +1,23 @@
+name: LockStock
+main: com.btbb.lockstock.LockStockPlugin
+version: 0.9.0
+author: Serge Humphrey
+description: Container lock with all the toppings
+
+commands:
+  lockstock:
+    description: LockStock User Commands
+    aliases: [ls]
+    usage: /ls ? for commands
+  lock:
+   description: Creates a lock on a container
+   aliases: []
+  unlock:
+   description: Deletes a lock on a container
+   aliases: []
+  lockstockadmin:
+    description: LockStock Admin commands
+    aliases: [lsa]
+    usage: /lockstockadmin ? for commands
+   
+  
