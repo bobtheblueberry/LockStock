@@ -11,12 +11,12 @@ lockstock.info.others - player can do /ls info on other players locks
 
 lockstock.admin.open - player can open chests not owned by them
 lockstock.admin.delete - player can delete chests not owned by them
-lockstock.admin.modify = player can modify chests not owned by them
+lockstock.admin.modify - player can modify chests not owned by them
 lockstock.admin.changeowner - player can change owner of lock with /ls changeowner
 lockstock.admin.clearplayer - can do /lsa clearplayer
 lockstock.admin.listplayer - can do /lsa listplayer
 lockstock.admin.import - can do /lsa importfromsqlite
-lockstock.admin.updatename can do /lsa updatename
+lockstock.admin.updatename - can do /lsa updatename
 
 
 

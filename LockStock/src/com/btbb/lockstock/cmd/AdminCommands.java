@@ -68,9 +68,9 @@ public class AdminCommands implements CommandExecutor {
 				msg(sender, "&fuse |$<regex> to use a regular expression");
 				msg(sender, "&eExamples:");
 
-				msg(sender, "&7/%1 ? listplayer Notch |Chest &f - seaches for 'Chest'", label);
+				msg(sender, "&7/%1 listplayer Notch |Chest &f - seaches for 'Chest'", label);
 
-				msg(sender, "&7/%1 ? listplayer Notch |$\\(([\\w]+:)?-16,-?[0-9]+,-?[0-9]+\\)\\WPrivate.+ \n"
+				msg(sender, "&7/%1 listplayer Notch |$\\(([\\w]+:)?-16,-?[0-9]+,-?[0-9]+\\)\\WPrivate.+ \n"
 						+ " &f- seaches for x = '-16' and type = 'Private'", label);
 
 				return true;

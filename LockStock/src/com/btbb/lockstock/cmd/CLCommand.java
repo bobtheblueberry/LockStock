@@ -156,7 +156,7 @@ public class CLCommand {
 		if (LockPermissions.getPermissions().canPlayerUnlock(player))
 			b.addFormattedMessage("&a/%1 decrypt <pass>: &fDecrypts a chest", label);
 		b.addFormattedMessage("&e/%1 info: &fLooks up lock info", label);
-		b.addFormattedMessage("&b/%1 add: &fAdds players to lock", label);
+		b.addFormattedMessage("&b/%1 add <player> <access|modify|full>: &fAdds players to lock", label);
 		b.addFormattedMessage("&b/%1 remove: &fRemoves players from lock", label);
 		b.addFormattedMessage("&e/%1 limits: &fDisplay your block limits", label);
 		b.addFormattedMessage("&7/%1 autolock <on|off>: &fEnables/disabled auto-locking", label);
