@@ -64,7 +64,7 @@ public class LockDatabase {
 							+ "`blockid` int(11),\n"
 							+ "`world` varchar(255),\n"
 							+ "`password` varchar(255) DEFAULT NULL,\n"
-							+ "`created` datetime DEFAULT CURRENT_TIMESTAMP,\n"
+							+ "`created` datetime,\n"
 							+ " PRIMARY KEY (`id`)) ENGINE=InnoDB DEFAULT CHARSET=utf8;");
 					ps.execute();
 				} else {
