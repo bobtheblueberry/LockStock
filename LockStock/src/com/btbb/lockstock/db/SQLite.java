@@ -61,7 +61,7 @@ public class SQLite extends Database {
 			}
 		}
 		try {
-			if (connection != null && !connection.isClosed())
+			if (connection != null && !connection.isClosed() && connection.isValid(2))
 				return connection;
 			Class.forName("org.sqlite.JDBC");
 			connection = DriverManager.getConnection("jdbc:sqlite:" + plugin.getDataFolder() + File.separator + dbLocation);

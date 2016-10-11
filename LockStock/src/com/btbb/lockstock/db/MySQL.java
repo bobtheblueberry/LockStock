@@ -68,7 +68,7 @@ public class MySQL extends Database {
 	@Override
 	public Connection getConnection() {
 		try {
-			if (connection != null && !connection.isClosed())
+			if (connection != null && !connection.isClosed() && connection.isValid(2))
 				return connection;
 
 			Class.forName("com.mysql.jdbc.Driver");
